@@ -1,0 +1,47 @@
+.top-bar-control {
+  margin-left: 40px;
+}
+.top-bar-control > a {
+  display: block;
+
+  width: 32px;
+  height: 32px;
+  margin: 24px 20px;
+
+  text-align: center;
+
+  border-radius: 50%;
+  background: #353a42 no-repeat center;
+}
+.top-bar-control > a > img {
+  width: 22px;
+  margin-top: 5px;
+}
+.top-bar-user {
+  margin-top: 23px;
+  margin-right: 40px;
+}
+.top-bar-user > li {
+  line-height: 34px;
+
+  float: left;
+
+  width: 175px;
+  height: 34px;
+  margin-left: 25px;
+
+  text-align: center;
+
+  border: 1px solid white;
+  border-radius: 22.5px;
+  background-color: #1b1d21;
+}
+.top-bar-user > li > img {
+  float: left;
+
+  height: 28px;
+  margin: 2px;
+
+  border-radius: 50%;
+  background-color: gray;
+}

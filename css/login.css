@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  padding: 30px;
+
+  text-align: center;
+
+  border-bottom: 1px solid #cccccc;
+}
+.header > img {
+  height: 80px;
+}
+.main,
+.footer {
+  width: 560px;
+  margin: auto;
+
+  text-align: center;
+}
+.title {
+  margin-top: 35px;
+}
+.login-method > li {
+  line-height: 60px;
+
+  height: 60px;
+  margin: 15px auto 0;
+
+  transition-duration: 0.3s;
+  transition-property: background-color, color;
+
+  border: 1px solid rgb(97, 100, 103);
+  border-radius: 30px;
+}
+.login-method > li:hover {
+  background-color: gray;
+}
+.login-method > li:hover > a {
+  color: white;
+}
+.facebook {
+  background-color: #3b5998;
+}
+li.facebook:hover {
+  color: black;
+  background-color: #3a61b3;
+}
+.apple {
+  background-color: black;
+}
+li.apple:hover {
+  color: black;
+  background-color: #333333;
+}
+.login-method > li > img {
+  height: 20px;
+  margin-right: 10px;
+
+  vertical-align: middle;
+}
+.login-method > li > a {
+  vertical-align: middle;
+
+  color: black;
+}
+.login-method > .facebook > a,
+.login-method > .apple > a {
+  color: white;
+}
+.split {
+  margin: 30px 0;
+
+  border-top: 1px solid gray;
+}
+.split > b {
+  position: relative;
+  top: -10px;
+
+  padding: 0 20px;
+
+  background-color: white;
+}
+form {
+  line-height: 50px;
+
+  position: relative;
+
+  text-align: left;
+}
+#email,
+#password {
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+}
+form > a {
+  text-decoration: underline;
+
+  color: gray;
+}
+form > a:hover {
+  color: #1da64d;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+
+  vertical-align: middle;
+}
+label {
+  cursor: pointer;
+
+  color: gray;
+}
+button {
+  float: right;
+
+  width: 260px;
+  height: 40px;
+  margin-top: 10px;
+
+  transition: background-color 0.3s;
+
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: #1da64d;
+}
+button:hover {
+  background-color: #15883e;
+}
+.footer {
+  padding-bottom: 10px;
+}
+.footer > a {
+  line-height: 60px;
+
+  display: block;
+
+  margin-top: 20px;
+
+  transition-duration: 0.3s;
+  transition-property: background-color, color;
+
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+.footer > a:hover {
+  color: white;
+  background-color: gray;
+}

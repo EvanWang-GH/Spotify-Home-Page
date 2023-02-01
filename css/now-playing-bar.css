@@ -1,0 +1,64 @@
+.now-playing-bar {
+  height: 100%;
+
+  background-color: #181818;
+}
+.playing {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+}
+.playing > img {
+  height: 70%;
+  margin: 0 20px;
+
+  vertical-align: middle;
+}
+.playing > p {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+.playing-info {
+  font-size: 17px;
+
+  margin-right: 40px;
+}
+.playing-info > a:hover {
+  text-decoration: underline;
+}
+.playing-info > a > span {
+  font-size: 11px;
+
+  color: gray;
+}
+.playing-info > a:hover > span {
+  color: white;
+}
+.playing-menu > a > img {
+  margin-right: 20px;
+}
+.control {
+  text-align: center;
+}
+.ctrl-top > a {
+  display: inline-block;
+
+  width: 40px;
+  height: 40px;
+  margin: 20px 15px;
+}
+.ctrl-top > a > img {
+  vertical-align: middle;
+}
+.play {
+  border-radius: 50%;
+  background-color: white;
+}
+.play:hover {
+  width: 42px;
+  height: 42px;
+  margin: 19px 14px;
+}

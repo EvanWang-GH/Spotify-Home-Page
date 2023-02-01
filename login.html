@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="./css/login.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="./img/login/logo.svg" alt="spotify" />
+    </div>
+    <div class="main">
+      <p class="title"><b>To continue, log in to Spotify.</b></p>
+      <ul class="login-method">
+        <li class="facebook">
+          <img src="./img/login/facebook.svg" alt="facebook" />
+          <a href="#">CONTINUE WITF FACEBOOK</a>
+        </li>
+        <li class="apple">
+          <img src="./img/login/apple.svg" alt="apple" />
+          <a href="#">CONTINUE WITF APPLE</a>
+        </li>
+        <li>
+          <img src="./img/login/google.svg" alt="google" /><a href="#"
+            >CONTINUE WITF GOOGLE</a
+          >
+        </li>
+        <li>
+          <a href="#">CONTINUE WITF PHONE NUMBER</a>
+        </li>
+      </ul>
+      <div class="split"><b>OR</b></div>
+      <form action="./index.html" method="get">
+        <b>Email address or username</b>
+        <br /><input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email address or username"
+        />
+        <br /><b>Password</b> <br /><input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="password"
+        />
+        <br /><a href="#">Forgot your password?</a> <br /><input
+          id="remember_me"
+          name="remember-me"
+          type="checkbox"
+        /><label for="remember_me">Remember me</label>
+        <button>LOG IN</button>
+      </form>
+    </div>
+    <div class="footer">
+      <div class="split"></div>
+      <b>Don't have an account?</b>
+      <br /><a href="#">SIGN UP FOR SPOTIFY</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+.nav {
+  font-size: 13px;
+
+  height: 100%;
+  padding: 30px;
+
+  background-color: black;
+}
+.nav a {
+  color: gray;
+}
+.nav :hover > a {
+  color: white;
+}
+.svg-box {
+  line-height: 24px;
+
+  display: inline-block;
+
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+.nav-logo {
+  display: block;
+
+  margin-bottom: 50px;
+}
+.nav > ul > li {
+  margin-bottom: 25px;
+}
+.nav-top {
+  margin-bottom: 55px;
+}
+.nav-top img {
+  margin-right: 20px;
+
+  vertical-align: middle;
+}
+.nav-bottom {
+  border-bottom: 1px solid gray;
+}
+.create-playlist {
+  background: gray;
+}
+.liked-songs {
+  background: linear-gradient(135deg, #450af5, #c4efd9);
+}
+.nav-install-app {
+  position: absolute;
+  bottom: 10px;
+}
